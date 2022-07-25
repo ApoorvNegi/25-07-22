@@ -1,4 +1,7 @@
+<app-add-employee (addEmployee)="addEmploy($event)"></app-add-employee>
+
 <app-employees *ngFor="let employ of employe"
     [employees]="employ"
+    (deleteEmploy)="deleteEmp(employ)"
 
     >{{employ.id}}</app-employees>

@@ -1,0 +1,33 @@
+<form class="form-control" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="id">ID</label>
+        <input type="number" [(ngModel)]="id" name="id" id="id" placeholder="Enter ID number"/>
+    </div>
+
+    <div class="form-control">
+        <label for="day">Name</label>
+        <input type="text" [(ngModel)]="name" name="name" id="name" placeholder="Enter Name of employee"/>
+    </div>
+
+    <div class="form-control">
+        <label for="email">E-mail</label>
+        <input type="text" [(ngModel)]="email" name="email" id="email" placeholder="Enter email of employee"/>
+    </div>
+    
+    <div class="form-control">
+        <label for="phone_no">Phone no.</label>
+        <input type="number" [(ngModel)]="phone_no" name="phone_no" id="phone_no" placeholder="Enter phone no. of employee"/>
+    </div>
+    
+    <div class="form-control">
+        <label for="Profession">Profession</label>
+        <input type="text" [(ngModel)]="profession" name="profession" id="profession" placeholder="Enter Profession of employee"/>
+    </div>
+    
+    <div class="form-control form-control-check" >
+        <label for="project">Project</label>
+        <input type="checkbox" [(ngModel)]="project" name="project" id="project" placeholder="Set Project"/>
+    </div>
+    
+    <input type="submit" value="Save Details" class="btn-block" />
+</form>

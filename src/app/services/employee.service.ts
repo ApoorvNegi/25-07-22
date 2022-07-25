@@ -22,5 +22,13 @@ export class EmployeeService {
     return this.http.get<Employee[]>(this.url)
   }
 
+  addEmploy(employ: Employee): Observable<Employee>{
+    return this.http.post<Employee>(this.url, employ, httpOptions)
+  }
+
+  deleteEmployee(emp: Employee): Observable<Employee>{
+    const api = `${this.url}/${emp.id}`
+    return this.http.delete<Employee>(api)
+  }
 
 }

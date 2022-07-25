@@ -1,52 +1,52 @@
 {
-    "employee": [
-      {
-        "id": 2,
-        "name": "Data",
-        "email": "abc@gmail.com",
-        "phone_no": 45896523150,
-        "profession": "Manager",
-        "project": true
-      },
-      {
-        "id": 3,
-        "name": "base",
-        "email": "xyz@gmail.com",
-        "phone_no": 45896523150,
-        "profession": "Sr. Manager",
-        "project": false
-      },
-      {
-        "id": 4,
-        "name": "taba",
-        "email": "ijk@gmail.com",
-        "phone_no": 45896523150,
-        "profession": "SE",
-        "project": false
-      },
-      {
-        "id": 5,
-        "name": "Daba",
-        "email": "lol@gmail.com",
-        "phone_no": 45896523150,
-        "profession": "Sr. SE",
-        "project": true
-      },
-      {
-        "name": "labadaba",
-        "email": "dam@gmail.com",
-        "phone_no": 45896523150,
-        "profession": "HR",
-        "project": false,
-        "id": 6
-      },
-      {
-        "name": "dbdb",
-        "email": "why@gmail.com",
-        "phone_no": 45896523150,
-        "profession": "TD",
-        "project": true,
-        "id": 7
-      }
-    ]
-  }
+  "employee": [
+    {
+      "id": 2,
+      "name": "Data",
+      "email": "abc@gmail.com",
+      "phone_no": 45896523150,
+      "profession": "Manager",
+      "project": true
+    },
+    {
+      "id": 3,
+      "name": "base",
+      "email": "xyz@gmail.com",
+      "phone_no": 45896523150,
+      "profession": "Sr. Manager",
+      "project": false
+    },
+    {
+      "id": 4,
+      "name": "taba",
+      "email": "ijk@gmail.com",
+      "phone_no": 45896523150,
+      "profession": "SE",
+      "project": false
+    },
+    {
+      "id": 5,
+      "name": "Daba",
+      "email": "lol@gmail.com",
+      "phone_no": 45896523150,
+      "profession": "Sr. SE",
+      "project": true
+    },
+    {
+      "name": "labadaba",
+      "email": "dam@gmail.com",
+      "phone_no": 45896523150,
+      "profession": "HR",
+      "project": false,
+      "id": 6
+    },
+    {
+      "name": "dbdb",
+      "email": "why@gmail.com",
+      "phone_no": 45896523150,
+      "profession": "TD",
+      "project": true,
+      "id": 7
+    }
+  ]
+}

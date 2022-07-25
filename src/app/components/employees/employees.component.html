@@ -1,6 +1,6 @@
-<div *ngIf="employees" [ngClass]="{project : employees.project}" class="emplyees">
+<div *ngIf="employees" [ngClass]="{project : employees.project}" class="employees">
     <h3>{{employees.name}}
-        <fa-icon [icon]="faTimes" [ngStyle]="{color : 'red'}"></fa-icon>
+        <fa-icon [icon]="faTimes" [ngStyle]="{color : 'red'}" (click)="deleteEmp(employees)"></fa-icon>
     </h3>
     <p>{{employees.profession}}</p>
     <p>{{employees.project}}</p>
